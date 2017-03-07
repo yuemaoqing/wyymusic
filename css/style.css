@@ -1,0 +1,177 @@
+*{padding:0;margin:0;}
+li{list-style: none;}
+.floatL{float:left;}
+.floatR{float:right;}
+.clearfix:after{content:"200B";display:block;height:0;font-size:0;clear:both;}
+.header {
+  height: 2.4rem;
+  background: #ce3d3e;
+}
+.header h3 {
+  padding: 0 0.75rem;
+  color: #fff;
+  float: left;
+  line-height: 2.4rem;
+  font-size: 1.2rem;
+  height: 2.4rem;
+}
+.header p {
+  float: right;
+  padding: 1rem 1rem 0 0;
+  transform: scale(1.2);
+}
+.sub {
+  height: 2.4rem;
+  font-family: "微软雅黑";
+}
+.sub ul {
+  height: 100%;
+  display: flex;
+}
+.sub ul li {
+  width: 25%;
+  text-align: center;
+  font-size: 0.7rem;
+  line-height: 2.4rem;
+  box-sizing: border-box;
+}
+.sub ul li a {
+  height: 100%;
+  color: #666;
+  display: block;
+}
+.sub li.active {
+  border-bottom: 2px solid #ce3d3e;
+}
+.sub li.active a {
+  color: #ce3d3e;
+}
+.banner {
+  height: 7.5rem;
+  width: 100vw;
+}
+.banner .pic{
+  width:100vw;
+  overflow: hidden;
+
+}
+
+.banner ul li {
+  float: left;
+  width:100vw;
+}
+.banner ul li img {
+  height: auto;
+  width: 100vw;
+}
+.main {
+  width: 15.5rem;
+  margin: 0 auto;
+}
+.main h4 {
+  float: left;
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+  background: url("../images/aei.png") no-repeat left center;
+  background-size: 1rem 1rem;
+  padding-left: 1.25rem;
+  color: #333;
+}
+.main a.link {
+  float: right;
+  color: #666;
+  font-size: 0.7rem;
+  line-height: 1.8rem;
+}
+.main ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main ul li {
+  width: 32%;
+  position: relative;
+}
+.main ul li i {
+  font-size: 0.6rem;
+}
+.main ul li img {
+  width: 100%;
+}
+.main ul li p {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  line-height: 1.25rem;
+}
+.main ul li p span {
+  color: #fff;
+  float: right;
+  padding: 0 0.25rem;
+  font-size: 0.6rem;
+}
+.fix {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.fix .img {
+  float: left;
+}
+.fix .img .pic {
+  height: 1.8rem;
+  width: 1.8rem;
+  float: left;
+}
+.fix .img .pic img {
+  height: 100%;
+  width: 100%;
+}
+.fix .img .txt {
+  float: left;
+  padding: 0 0.5rem;
+}
+.fix .img .txt h2 {
+  font-size: 0.7rem;
+  color: #333333;
+}
+.fix .img .txt span {
+  font-size: 0.6rem;
+  color: #666666;
+}
+.fix ol {
+  float: right;
+}
+.fix ol li {
+  float: left;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.fix ol li img {
+  width: 100%;
+  height: 100%;
+}
+.fix ol li.mid {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+/*详情页*/
+
+.detail-header{  background: #ce3d3e;  height: 48px;position:fixed;top:0;left:0;width:100%;z-index:50}
+.detail-header span{padding: 0 15px;}
+.detail-header h4{height:50px;line-height:50px;color:#fff;font-size:24px;font-weight:normal;}
+
+#detail-title .title{width:100%;height:280px;position:relative;}
+#detail-title .title .bg-pic{width:100%;height:100%;position:absolute;left:0;top:0;-webkit-filter:blur(30px)}
+#detail-title .title .bg-pic img{width:100%;height:100%;}
+#detail-title .title .bigpic{width:30%;position:absolute;top:77px;left:53px;z-index:30}
+#detail-title .title .bigpic img{width:100%;}
+#detail-title .title .icon{position:absolute;right:148px;bottom:103px;color:white;}
+#detail-title .title .icon h5{font-size:20px;}
+
+#songs li a{display: block;padding: 15px 0;}
+#songs li .num{width: 60px;  text-align: center;  height: 60px;  line-height: 60px;padding: 15px 0;}
+#songs li .songicon{    border-bottom: 1px solid #ccc;  width: 78%;  padding: 15px 0;}
+#songs li .artist{color:#666;}

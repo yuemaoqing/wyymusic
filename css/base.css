@@ -1,0 +1,10 @@
+body,h1,h2,h3,h4,h5,h6,dl,dd,dt,ol,ul,a,p{padding:0;margin:0;}
+body{font-family:Arial "微软雅黑";}
+ul li,ol li{list-style:none;}
+img,input{border:none;vertical-align:top;}
+a{text-decoration:none;outline:none;}
+.clearfix:after{content:"200B";display:block;height:0;font-size:0;clear:both;}
+i{font-style:normal;font-family:consolas;color:#666;}
+html,body{height:100%;overflow-x: hidden;}
+floatL{float:left;}
+floatR{float:right;}

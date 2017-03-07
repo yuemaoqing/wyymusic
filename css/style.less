@@ -1,0 +1,98 @@
+@sw:20rem;
+//头部
+.header{
+  height:48/@sw;background:#ce3d3e;
+  h3{padding:0 15/@sw;color:#fff;float:left;line-height:48/@sw;font-size:24/@sw;height:48/@sw}
+  p{float:right;padding:20/@sw 20/@sw 0 0;transform: scale(1.2);}
+}
+.sub {
+  height: 48/@sw;
+  font-family: "微软雅黑";
+  ul {
+    height: 100%;
+    display: flex;
+  }
+  ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 14/@sw;
+    line-height: 48/@sw;
+    box-sizing: border-box;
+    a {
+      height: 100%;
+      color: #666;
+      display: block;
+    }
+  }
+  li.active {
+    border-bottom: 2px solid #ce3d3e;
+    a {
+      color: #ce3d3e;
+    }
+  }
+}
+
+
+
+.banner{height:150/@sw;width:100%;
+    ol{width:400%;display:flex;
+      li{float:left;
+        img{height:100%;width:100%;}
+      }
+    }
+}
+
+
+
+.main{width:310/@sw;margin:0 auto;
+    h4{float:left;font-size:16/@sw;line-height:36/@sw;background:url("../images/aei.png") no-repeat left center;
+    background-size:20/@sw 20/@sw;padding-left:25/@sw;color:#333;}
+    a.link{float:right;color:#666;font-size:14/@sw;line-height:36/@sw;
+    }
+    ul{display:flex;flex-wrap: wrap;justify-content: space-between;
+      li{width:32%;position: relative;
+        i{font-size:12/@sw;}
+        img{width:100%;}
+        p{width:100%;position:absolute;top:0;height:25/@sw;background-color:rgba(0,0,0,.4);
+          line-height:25/@sw ;
+          span{
+            color:#fff;float:right;padding:0 5/@sw;font-size:12/@sw;
+          }
+        }
+      }
+    }
+}
+
+//fix
+.fix{width:100%;position: fixed;bottom:0;
+  .img{float:left;
+    .pic{height:36/@sw;width:36/@sw;float:left;
+      img{height:100%;width:100%;}
+    }
+    .txt{float:left;padding:0 10/@sw;
+      h2{font-size:14/@sw;color:#333333;}
+      span{font-size:12/@sw;color:#666666;}
+    }
+  }
+
+  ol{float:right;
+    li{float:left;width:30/@sw;height:30/@sw;
+      img{width:100%;height:100%;}
+    }
+    li.mid{width:35/@sw;height:35/@sw;}
+  }
+}
+
+/*详情页*/
+/*
+.detail-header{  background: #ce3d3e;  height: 48px;position:fixed;top:0;left:0;width:100%;z-index:50}
+.detail-header span{padding: 0 15px;}
+.detail-header h4{height:50px;line-height:50px;color:#fff;font-size:24px;font-weight:normal;}
+#detail .title{width:100%;height:280px;position:relative;}
+#detail .title .bg-pic{width:100%;height:100%;position:absolute;left:0;top:0;-webkit-filter:blur(30px)}
+#detail .title .bg-pic img{width:100%;height:100%;}
+#detail .title .bigpic{width:30%;position:absolute;top:77px;left:53px;z-index:30}
+#detail .title .bigpic img{width:100%;}
+#detail .title .icon{position:absolute;right:148px;bottom:103px;color:white;}
+#detail .title .icon h5{font-size:20px;}
+*/
